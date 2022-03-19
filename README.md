@@ -18,9 +18,9 @@ Application consists of App.Core, App.Test and AzureFunctionApp projects.
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
 
-    "dynamicsUrl": "https://org2d51d98a.crm4.dynamics.com",
-    "dynamicsUserName": "resad_333@rashadnaghiyevtrial.onmicrosoft.com",
-    "dynamicsPassword": "123456r@"
+    "dynamicsUrl": "https://YOUR_ORG.crm4.dynamics.com",
+    "dynamicsUserName": "YOUR@USER.onmicrosoft.com",
+    "dynamicsPassword": "YOUR_PWD"
   }
 }
    
