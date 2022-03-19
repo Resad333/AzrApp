@@ -10,18 +10,19 @@ Application consists of App.Core, App.Test and AzureFunctionApp projects.
 * App.Test contains tests for Service layer which contains main logic .
 * AzureFunctionApp contains TimeEntryPost.cs which is entry point and it has Run method and this method invoked by HTTP TRIGGER.
    Dynamics parameters can be added to local.settings.json .
-   Sample seetings json file: 
+   Sample seetings json file:
+   
    {
-     "IsEncrypted": false,
-     "Values": {
-       "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-       "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
 
-       "dynamicsUrl": "https://YOUR_ORG.crm4.dynamics.com",
-       "dynamicsUserName": "YOUR@USERNAME.onmicrosoft.com",
-       "dynamicsPassword": "YOUR_PASSWORD"
-       }
-     }
+    "dynamicsUrl": "https://org2d51d98a.crm4.dynamics.com",
+    "dynamicsUserName": "resad_333@rashadnaghiyevtrial.onmicrosoft.com",
+    "dynamicsPassword": "123456r@"
+  }
+}
    
    Sample API URL:http://localhost:7071/api/TimeEntryPost
    POST Request body sample:
